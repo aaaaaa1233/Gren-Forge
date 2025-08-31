@@ -1,20 +1,22 @@
 {
   "required": true,
-  "package": "nl.sniffiandros.bren.common.mixin",
+  "package": "committee.nova.mods.bren.init.mixin",
   "compatibilityLevel": "JAVA_17",
+  "refmap": "bren.refmap.json",
   "mixins": [
-    "PlayerEntityMixin",
+    "PlayerMixin",
     "StructurePoolAccessor",
     "TooltipsMixin"
   ],
-  "injectors": {
-    "defaultRequire": 1
-  },
   "client": [
     "client.BipedEntityModelMixin",
     "client.DrawContextMixin",
     "client.ItemRendererMixin",
     "client.LivingEntityRendererMixin",
     "client.MinecraftClientMixin"
-  ]
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
 }

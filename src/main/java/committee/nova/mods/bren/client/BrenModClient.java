@@ -97,12 +97,22 @@ public class BrenModClient {
         List<ModelResourceLocation> modelIdentifierList = new ArrayList<>();
         registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.MACHINE_GUN.get()), modelIdentifierList, true, true);
         registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.AUTO_GUN.get()), modelIdentifierList, true, true);
+        registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.HEAVY_MG.get()), modelIdentifierList, false, true);
         registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.RIFLE.get()), modelIdentifierList, false, true);
+        registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.SMG.get()), modelIdentifierList, false, true);
+        registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.DB_SHOTGUN.get()), modelIdentifierList, false, false);
+        registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.AUTO_SHOTGUN.get()), modelIdentifierList, false, false);
+        registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.HEAVY_RIFLE.get()), modelIdentifierList, false, false);
         registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.SHOTGUN.get()), modelIdentifierList, false, false);
         registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.NETHERITE_MACHINE_GUN.get()), modelIdentifierList, true, true);
         registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.NETHERITE_AUTO_GUN.get()), modelIdentifierList, true, true);
         registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.NETHERITE_RIFLE.get()), modelIdentifierList, false, true);
         registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.NETHERITE_SHOTGUN.get()), modelIdentifierList, false, false);
+        registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.NETHERITE_SMG.get()), modelIdentifierList, false, true);
+        registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.NETHERITE_DB_SHOTGUN.get()), modelIdentifierList, false, false);
+        registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.NETHERITE_AUTO_SHOTGUN.get()), modelIdentifierList, false, false);
+        registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.NETHERITE_HEAVY_MG.get()), modelIdentifierList, false, true);
+        registerGUIModels(ForgeRegistries.ITEMS.getKey(ItemReg.NETHERITE_HEAVY_RIFLE.get()), modelIdentifierList, false, false);
         for (ModelResourceLocation modelIdentifier : modelIdentifierList) {
             event.register(modelIdentifier);
         }

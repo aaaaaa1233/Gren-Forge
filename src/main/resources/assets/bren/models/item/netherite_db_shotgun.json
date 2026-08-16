@@ -1,0 +1,6 @@
+{
+  "parent": "bren:item/netherite_db_shotgun_handheld",
+  "textures": {
+    "layer0": "bren:item/netherite_db_shotgun"
+  }
+}

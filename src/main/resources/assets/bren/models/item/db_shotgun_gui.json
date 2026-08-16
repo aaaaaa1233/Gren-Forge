@@ -1,0 +1,6 @@
+{
+  "parent": "bren:item/db_shotgun_handheld",
+  "textures": {
+    "layer0": "bren:item/db_shotgun_gui"
+  }
+}

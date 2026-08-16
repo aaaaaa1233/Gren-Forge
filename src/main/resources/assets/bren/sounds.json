@@ -5,6 +5,42 @@
       "bren:machine_gun_shot"
     ]
   },
+  "item.smg.shoot": {
+    "subtitle": "bren.item.shoot",
+    "sounds": [
+      "bren:smg_shot"
+    ]
+  },
+  "item.heavy_rifle.shoot": {
+    "subtitle": "bren.item.shoot",
+    "sounds": [
+      "bren:heavy_rifle_shot"
+    ]
+  },
+  "item.heavy_rifle.insert": {
+    "subtitle": "bren.item.shell_insert",
+    "sounds": [
+      "bren:heavy_rifle_insert"
+    ]
+  },
+  "item.heavy_rifle.rack": {
+    "subtitle": "bren.item.rack",
+    "sounds": [
+      "bren:heavy_rifle_rack"
+    ]
+  },
+  "item.pistol.shoot": {
+    "subtitle": "bren.item.shoot",
+    "sounds": [
+      "bren:pistol_shot"
+    ]
+  },
+  "item.heavy_mg.shoot": {
+    "subtitle": "bren.item.shoot",
+    "sounds": [
+      "bren:heavy_mg_shot"
+    ]
+  },
   "item.auto_gun.shoot": {
     "subtitle": "bren.item.shoot",
     "sounds": [
@@ -21,6 +57,18 @@
     "subtitle": "bren.item.shoot",
     "sounds": [
       "bren:shotgun_shot"
+    ]
+  },
+  "item.db_shotgun_shoot": {
+    "subtitle": "bren.item.shoot",
+    "sounds": [
+      "bren:db_shotgun_shot"
+    ]
+  },
+  "item.db_shotgun_reload": {
+    "subtitle": "bren.item.rack",
+    "sounds": [
+      "bren:db_shotgun_reload"
     ]
   },
   "item.shotgun.shell_insert": {
@@ -73,10 +121,29 @@
       "bren:silenced_machine_gun_shot"
     ]
   },
+
   "item.auto_gun.shoot_silenced": {
     "subtitle": "bren.item.shoot_silenced",
     "sounds": [
       "bren:silenced_auto_gun_shot"
+    ]
+  },
+  "item.pistol.shoot_silenced": {
+    "subtitle": "bren.item.shoot_silenced",
+    "sounds": [
+      "bren:silenced_pistol_shot"
+    ]
+  },
+  "item.smg.shoot_silenced": {
+    "subtitle": "bren.item.shoot_silenced",
+    "sounds": [
+      "bren:silenced_smg_shot"
+    ]
+  },
+  "item.heavy_mg.shoot_silenced": {
+    "subtitle": "bren.item.shoot_silenced",
+    "sounds": [
+      "bren:silenced_heavy_mg_shot"
     ]
   },
   "item.rifle.shoot_silenced": {
@@ -104,6 +171,12 @@
       "bren:magazine_remove"
     ]
   },
+
+
+
+
+
+
   "entity.villager.work_gunsmith": {
     "subtitle": "bren.entity.villager.work_gunsmith",
     "sounds": [

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "bren:auto_loader_contraption"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "bren:metal_tube"
+    },
+    "F": {
+      "item": "minecraft:iron_block"
+    },
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "P": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    "TTI",
+    "PFM",
+    " LP"
+  ],
+  "result": {
+    "item": "bren:heavy_rifle"
+  }
+}

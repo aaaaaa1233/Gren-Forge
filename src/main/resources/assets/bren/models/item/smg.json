@@ -1,0 +1,14 @@
+{
+  "parent": "bren:item/smg_handheld",
+  "textures": {
+    "layer0": "bren:item/smg"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "has_magazine": 1
+      },
+      "model": "bren:item/smg_with_magazine"
+    }
+  ]
+}

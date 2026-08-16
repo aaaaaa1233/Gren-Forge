@@ -11,11 +11,17 @@ public class ModModelPredicateProvider {
     public static void regModels() {
         regGun(ItemReg.MACHINE_GUN.get(), true);
         regGun(ItemReg.AUTO_GUN.get(), true);
+        regGun(ItemReg.HEAVY_MG.get(), false);
+        regGun(ItemReg.SMG.get(), false);
         regGun(ItemReg.RIFLE.get(), false);
         regGun(ItemReg.NETHERITE_MACHINE_GUN.get(), true);
+        regGun(ItemReg.NETHERITE_HEAVY_MG.get(), false);
+        regGun(ItemReg.NETHERITE_SMG.get(), false);
         regGun(ItemReg.NETHERITE_AUTO_GUN.get(), true);
         regGun(ItemReg.NETHERITE_RIFLE.get(), false);
         regMag(ItemReg.MAGAZINE.get());
+        regMag(ItemReg.HEAVY_MAGAZINE.get());
+        regMag(ItemReg.LIGHT_MAGAZINE.get());
         regMag(ItemReg.CLOTHED_MAGAZINE.get());
         regMag(ItemReg.SHORT_MAGAZINE.get());
     }

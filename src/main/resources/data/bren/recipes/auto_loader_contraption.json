@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "minecraft:gold_ingot"
+    },
+    "G": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "GM ",
+    "MNM",
+    " MG"
+  ],
+  "result": {
+    "item": "bren:auto_loader_contraption",
+    "count": 1
+  },
+  "show_notification": true
+}

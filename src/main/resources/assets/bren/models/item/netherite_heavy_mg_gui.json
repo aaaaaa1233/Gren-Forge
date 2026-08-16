@@ -1,0 +1,6 @@
+{
+  "parent": "bren:item/netherite_heavy_mg_handheld",
+  "textures": {
+    "layer0": "bren:item/netherite_heavy_mg_gui"
+  }
+}

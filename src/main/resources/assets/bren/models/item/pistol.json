@@ -1,0 +1,6 @@
+{
+  "parent": "bren:item/pistol_handheld",
+  "textures": {
+    "layer0": "bren:item/pistol"
+  }
+}

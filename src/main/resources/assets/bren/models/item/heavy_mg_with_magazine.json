@@ -1,0 +1,6 @@
+{
+  "parent": "bren:item/heavy_mg_handheld",
+  "textures": {
+    "layer0": "bren:item/heavy_mg_with_magazine"
+  }
+}

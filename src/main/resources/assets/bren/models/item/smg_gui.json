@@ -1,0 +1,6 @@
+{
+  "parent": "bren:item/smg_handheld",
+  "textures": {
+    "layer0": "bren:item/smg_gui"
+  }
+}

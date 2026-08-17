@@ -122,11 +122,11 @@ public class ItemReg {
             .shootSound(SoundReg.ITEM_HEAVY_MG_SHOOT, null)));
 
     public static final RegistryObject<Item>HEAVY_RIFLE = item("heavy_rifle",  (s) -> new HeavyRifleItem(
-            new Item.Properties(), Tiers.IRON, new GunProperties().rangedDamage(HEAVY_RIFLE_DAMAGE).fireRate(20).recoil(HEAVY_MG_RECOIL).bulletSpeed(1.8F)
+            new Item.Properties(), Tiers.IRON, new GunProperties().rangedDamage(HEAVY_RIFLE_DAMAGE).fireRate(20).recoil(HEAVY_RIFLE_RECOIL).bulletSpeed(1.8F)
             .shootSound(SoundReg.ITEM_HEAVY_RIFLE_SHOOT, null)));
 
     public static final RegistryObject<Item>NETHERITE_HEAVY_RIFLE = item("netherite_heavy_rifle",  (s) -> new HeavyRifleItem(
-            new Item.Properties().fireResistant(), Tiers.NETHERITE, new GunProperties().rangedDamage(NETHERITE_HEAVY_RIFLE_DAMAGE).fireRate(20).recoil(HEAVY_MG_RECOIL).bulletSpeed(1.8F)
+            new Item.Properties().fireResistant(), Tiers.NETHERITE, new GunProperties().rangedDamage(NETHERITE_HEAVY_RIFLE_DAMAGE).fireRate(20).recoil(HEAVY_RIFLE_RECOIL).bulletSpeed(1.8F)
             .shootSound(SoundReg.ITEM_HEAVY_RIFLE_SHOOT, null)));
 
     public static final RegistryObject<Item>DB_SHOTGUN = item("db_shotgun",  (s) -> new DBShotgunItem(

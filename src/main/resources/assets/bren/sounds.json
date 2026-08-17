@@ -59,13 +59,13 @@
       "bren:shotgun_shot"
     ]
   },
-  "item.db_shotgun_shoot": {
+  "item.db_shotgun.shoot": {
     "subtitle": "bren.item.shoot",
     "sounds": [
       "bren:db_shotgun_shot"
     ]
   },
-  "item.db_shotgun_reload": {
+  "item.db_shotgun.reload": {
     "subtitle": "bren.item.rack",
     "sounds": [
       "bren:db_shotgun_reload"

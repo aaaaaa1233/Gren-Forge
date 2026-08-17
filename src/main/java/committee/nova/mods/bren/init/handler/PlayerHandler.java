@@ -84,7 +84,7 @@ public class PlayerHandler {
             }
 
             if (gunUser.getGunState().equals(GunHelper.GunStates.RELOADING) && player.getMainHandItem() != gunUser.getReloadingGun()) {
-                cooldownManager.removeCooldown(gunUser.getReloadingGun().getItem());
+
                 gunUser.setGunState(GunHelper.GunStates.NORMAL);
                 gunUser.setCanReload(true);
             }

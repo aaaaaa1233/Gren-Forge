@@ -49,11 +49,11 @@ public class ItemReg {
     public static final float HEAVY_MG_DAMAGE = MConfig.heavyMGDamage.get();
     public static final float NETHERITE_HEAVY_MG_DAMAGE = MConfig.netheriteHeavyMGDamage.get();
 
-    public static final float AUTO_SHOTGUN_RECOIL = 20f;
+    public static final float AUTO_SHOTGUN_RECOIL = 18f;
     public static final float AUTO_SHOTGUN_DAMAGE = MConfig.autoShotgunDamage.get();
     public static final float NETHERITE_AUTO_SHOTGUN_DAMAGE = MConfig.netheriteAutoShotgunDamage.get();
 
-    public static final float DB_SHOTGUN_RECOIL = 30f;
+    public static final float DB_SHOTGUN_RECOIL = 27f;
     public static final float DB_SHOTGUN_DAMAGE = MConfig.dbShotgunDamage.get();
     public static final float NETHERITE_DB_SHOTGUN_DAMAGE = MConfig.netheriteDBShotgunDamage.get();
 

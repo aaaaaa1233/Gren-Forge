@@ -40,18 +40,13 @@ public class AutoShotgunItem extends BulletOnlyGun {
 
 
     @Override
-    public int bulletLifespan() {
-        return 9;
-    }
-
-    @Override
     public float spread() {
-        return 4.0F;
+        return 5.0F;
     }
 
     @Override
     public int bulletAmount() {
-        return 4;
+        return 8;
     }
 
     @Override

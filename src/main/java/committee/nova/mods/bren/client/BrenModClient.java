@@ -60,8 +60,12 @@ public class BrenModClient {
 
     @SubscribeEvent
     public static void registerOverlays(RegisterGuiOverlaysEvent event) {
-        event.registerAboveAll("bullet_hud", new HudOverlay());
+        if (MConfig.showAmmoGui.get()) {
+            event.registerAboveAll("bullet_hud", new HudOverlay());
+        }
     }
+
+
 
     @SubscribeEvent
     public static void clientSetUp(FMLClientSetupEvent event) {
